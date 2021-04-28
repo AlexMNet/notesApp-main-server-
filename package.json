@@ -4,7 +4,8 @@
   "description": "Serve html pages with node server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Alex Maldonado",
   "license": "ISC",
